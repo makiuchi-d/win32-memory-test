@@ -25,5 +25,7 @@ int main(void)
 		printf(" writen\n");
 	}
 
+	fflush(stdout);
+	getchar();
 	return 0;
 }
